@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>asyncTest('$1'${2:, ${3:expected}}, ${4:function() {
+	$5
+\}});</string>
+	<key>name</key>
+	<string>asyncTest</string>
+	<key>scope</key>
+	<string>source.js.jquery.qunit</string>
+	<key>tabTrigger</key>
+	<string>as</string>
+	<key>uuid</key>
+	<string>4694FBC8-487B-4005-993F-D38757800D5D</string>
+</dict>
+</plist>

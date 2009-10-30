@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+method_name = ENV['TM_CURRENT_WORD'] ? '/'+ENV['TM_CURRENT_WORD'] : ''
+print "&lt;meta http-equiv=\"Refresh\" content=\"0;http://docs.jquery.com/QUnit#{method_name}\"/&gt;"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^h</string>
+	<key>name</key>
+	<string>Reference</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js.jquery.qunit</string>
+	<key>uuid</key>
+	<string>DD83BD57-1B12-4B82-A139-9EFD3184744D</string>
+</dict>
+</plist>

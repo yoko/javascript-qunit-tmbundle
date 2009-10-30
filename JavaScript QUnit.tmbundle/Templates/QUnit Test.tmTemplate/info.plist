@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>[ -f "$TM_NEW_FILE" ] ||  perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;qunit.html &gt;"$TM_NEW_FILE"</string>
+	<key>extension</key>
+	<string>html</string>
+	<key>name</key>
+	<string>QUnit Test HTML</string>
+	<key>uuid</key>
+	<string>254D6145-2BF8-45F8-BC22-B10904CB8653</string>
+</dict>
+</plist>

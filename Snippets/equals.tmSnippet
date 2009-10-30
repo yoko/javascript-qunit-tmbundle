@@ -5,12 +5,12 @@
 	<key>content</key>
 	<string>equals(${1:actual}, ${2:expected}${3:, '${4:message}'});</string>
 	<key>name</key>
-	<string>equals (eq)</string>
+	<string>equals</string>
 	<key>scope</key>
 	<string>source.js.jquery.qunit</string>
 	<key>tabTrigger</key>
-	<string>eq</string>
+	<string>==</string>
 	<key>uuid</key>
-	<string>DFFD8C2B-67D8-4A2C-9F2C-104DBEDD4662</string>
+	<string>3D4EC720-C8CB-4985-9C66-C95B2FAD9BD4</string>
 </dict>
 </plist>

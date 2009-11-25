@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>asyncTest('$1'${2:, ${3:expected}}, ${4:function() {
-	$5
-\}});</string>
+	<string>asyncTest('$1'${2:, ${3:expected}}, function() {
+	$4
+});</string>
 	<key>name</key>
 	<string>asyncTest</string>
 	<key>scope</key>

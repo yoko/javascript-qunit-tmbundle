@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>test('$1'${2:, ${3:expected}}, ${4:function() {
-	$5
-\}});</string>
+	<string>test('$1'${2:, ${3:expected}}, function() {
+	$4
+});</string>
 	<key>name</key>
 	<string>test</string>
 	<key>scope</key>

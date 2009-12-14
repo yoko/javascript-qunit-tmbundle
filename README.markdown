@@ -1,7 +1,8 @@
 JavaScript QUnit.tmbundle
 =========================
 
-![](http://farm3.static.flickr.com/2655/4058140968_570397dfc8_o.png)
+
+![](http://farm3.static.flickr.com/2755/4183931566_b988eac73c_o.png)
 
 ## Installation
 	% cd ~/Library/Application\ Support/TextMate/Bundles/  

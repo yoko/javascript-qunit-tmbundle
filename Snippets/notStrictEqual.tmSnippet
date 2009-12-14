@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>same(${1:actual}, ${2:expected}${3:, '${4:message}'}); // deprecated. use deepEqual</string>
+	<string>notStrictEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});</string>
 	<key>name</key>
-	<string>same</string>
+	<string>notStrictEqual</string>
 	<key>scope</key>
 	<string>source.js.jquery.qunit</string>
 	<key>tabTrigger</key>
-	<string>===</string>
+	<string>!==</string>
 	<key>uuid</key>
-	<string>BAB15A2F-5145-49DC-AC06-B07A3BD0C85C</string>
+	<string>056B126A-5DE8-45E7-8B54-645FCDF5C182</string>
 </dict>
 </plist>

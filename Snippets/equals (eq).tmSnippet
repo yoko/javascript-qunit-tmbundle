@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>equals(${1:actual}, ${2:expected}${3:, '${4:message}'});</string>
+	<string>equals(${1:actual}, ${2:expected}${3:, '${4:message}'}); // deprecated. use equal</string>
 	<key>name</key>
 	<string>equals (eq)</string>
 	<key>scope</key>

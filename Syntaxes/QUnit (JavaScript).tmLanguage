@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>foldingStartMarker</key>
+	<string>(^.*{[^}]*$|^.*\([^\)]*$|^.*/\*(?!.*\*/).*$)</string>
+	<key>foldingStopMarker</key>
+	<string>(^\s*\}|^\s*\)|^(?!.*/\*).*\*/)</string>
+	<key>keyEquivalent</key>
+	<string>^~J</string>
+	<key>name</key>
+	<string>QUnit (JavaScript)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>(\$)\(</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.class.js.jquery.qunit</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>meta.selector.jquery.qunit</string>
+			<key>end</key>
+			<string>(\))</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.class.js</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\.(module|test|asyncTest|expect|init|ok|equal|equals|notEqual|deepEqual|same|notDeepEqual|strictEqual|notStrictEqual|start|stop)\b</string>
+			<key>name</key>
+			<string>support.function.js.jquery.qunit</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.js.jquery</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js.jquery.qunit</string>
+	<key>uuid</key>
+	<string>F185CAF4-AC55-445E-8DB6-702398A7441A</string>
+</dict>
+</plist>

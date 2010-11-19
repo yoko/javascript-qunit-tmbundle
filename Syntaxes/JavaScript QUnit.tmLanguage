@@ -5,7 +5,6 @@
 	<key>fileTypes</key>
 	<array>
 		<string>html</string>
-		<string>qunit</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
@@ -111,7 +110,7 @@
 						</dict>
 						<dict>
 							<key>include</key>
-							<string>source.js.jquery</string>
+							<string>source.js.jquery.qunit</string>
 						</dict>
 					</array>
 				</dict>
@@ -123,7 +122,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.js.jquery.qunit</string>
+	<string>text.html.jquery.qunit</string>
 	<key>uuid</key>
 	<string>F9DA190B-5535-4889-8305-12A90916E6C1</string>
 </dict>
